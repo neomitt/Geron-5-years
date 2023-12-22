@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="250dp"
+                android:layout_height="400dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/pica2" />
+
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+
+                android:textSize="25dp"
+                android:text="Geron уже 5 лет. Давайте вспомним что такое Geron.
+
+Миссия Geron организации заключается в обучении востребованного поколения IT-специалистов, а наши ценности являются основой этой миссии. Мы придерживаемся принципов честности, сплоченности, порядочности, уважения, ответственности, инициативности, отзывчивости и настойчивости. Наша деятельность охватывает несколько направлений, предоставляя обучение разного уровня для разных возрастных групп.
+
+### Наши ценности:
+
+1. Честность: Мы ценим и придерживаемся прозрачности и честности в наших отношениях с учащимися, их родителями и сотрудниками.
+
+2. Сплоченность: Мы стремимся к единству и взаимопониманию в нашем образовательном сообществе.
+
+3. Порядочность: Мы придерживаемся высоких стандартов нравственности и порядочности во всех аспектах нашей деятельности.
+
+4. Уважение: Уважение к личности, мнению и культурным различиям является основой наших взаимоотношений.
+
+5. Ответственность: Мы берем на себя ответственность за качество обучения и развитие наших учащихся.
+
+6. Инициативность: Мы поощряем инициативу и творческое мышление среди наших студентов.
+
+7. Отзывчивость: Мы открыты к обратной связи и готовы реагировать на потребности наших учащихся и их родителей.
+
+8. Настойчивость: Мы поощряем настойчивость в достижении целей и развитии профессиональных навыков.
+
+### Наши направления деятельности:
+
+1. Школа программирования:
+   - Возраст 6+: Годовые курсы, ориентированные на освоение основ программирования.
+   - Возраст 8+: Индивидуальные репетиторства, предоставляющие персонализированный подход к обучению."/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:text="2. Школа программирования Little 1 - Junior 2 (5-8 лет):**
+            Занятия направлены на:
+            Развитие алгоритмического мышления и логики.
+            Знакомство с устройством компьютера.
+            Развитие компьютерной грамотности.
+            Работу с операционной системой.
+            Работу в предустановленных программах Windows.
+            Создание игр с использованием Kodu и Scratch.
+            Создание пиксельных картин и анимаций в Piskel App."
+
+                android:layout_gravity="center"
+                android:gravity="center"/>
+            <Button
+                android:id="@+id/button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="Вау!"
+                android:textStyle="bold"
+                android:onClick="onClick"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
